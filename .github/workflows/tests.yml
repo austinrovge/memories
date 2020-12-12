@@ -4,16 +4,16 @@ on: pull_request
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
-    steps:
-      run: echo hello world
+    run: echo hello world
 
   unit_tests:
+    name: Unit Tests
     runs-on: ubuntu-latest
-    steps:
-      run: echo hello world
+    run: echo hello world
 
   ui_tests:
+    name: UI Tests
     runs-on: ubuntu-latest
-    steps:
-      run: echo hello world
+    run: echo hello world
