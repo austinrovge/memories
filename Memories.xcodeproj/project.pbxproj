@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDA388342584258300C426D3 /* memoriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA388332584258300C426D3 /* memoriesApp.swift */; };
-		EDA388362584258300C426D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA388352584258300C426D3 /* ContentView.swift */; };
+		ED6659CF258430C4001EF405 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6659CE258430C4001EF405 /* DashboardView.swift */; };
+		ED6659DD2584354F001EF405 /* SwiftUI+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6659DC2584354F001EF405 /* SwiftUI+.swift */; };
+		ED6659E825843832001EF405 /* MemoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6659E725843832001EF405 /* MemoriesView.swift */; };
+		ED6659FA2584AF90001EF405 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6659F92584AF90001EF405 /* DashboardViewModel.swift */; };
+		ED665A022584B1CE001EF405 /* Foundation+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED665A012584B1CE001EF405 /* Foundation+.swift */; };
+		ED665A0725852A51001EF405 /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED665A0625852A51001EF405 /* DispatchQueue+.swift */; };
+		ED7C0D2B2586FD0000F3D30B /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C0D2A2586FD0000F3D30B /* MediaView.swift */; };
+		ED7C0D312587099300F3D30B /* MediaWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C0D302587099300F3D30B /* MediaWrapper.swift */; };
+		EDA388342584258300C426D3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA388332584258300C426D3 /* RootView.swift */; };
 		EDA388382584258500C426D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA388372584258500C426D3 /* Assets.xcassets */; };
-		EDA3883B2584258500C426D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA3883A2584258500C426D3 /* Preview Assets.xcassets */; };
 		EDA388462584258600C426D3 /* memoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA388452584258600C426D3 /* memoriesTests.swift */; };
 		EDA388512584258600C426D3 /* memoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA388502584258600C426D3 /* memoriesUITests.swift */; };
 /* End PBXBuildFile section */
@@ -33,11 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED6659CE258430C4001EF405 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		ED6659DC2584354F001EF405 /* SwiftUI+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+.swift"; sourceTree = "<group>"; };
+		ED6659E725843832001EF405 /* MemoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesView.swift; sourceTree = "<group>"; };
+		ED6659F92584AF90001EF405 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		ED665A012584B1CE001EF405 /* Foundation+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+.swift"; sourceTree = "<group>"; };
+		ED665A0625852A51001EF405 /* DispatchQueue+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+.swift"; sourceTree = "<group>"; };
+		ED7C0D2A2586FD0000F3D30B /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		ED7C0D302587099300F3D30B /* MediaWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaWrapper.swift; sourceTree = "<group>"; };
 		EDA388302584258300C426D3 /* Memories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memories.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDA388332584258300C426D3 /* memoriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriesApp.swift; sourceTree = "<group>"; };
-		EDA388352584258300C426D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDA388332584258300C426D3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		EDA388372584258500C426D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDA3883A2584258500C426D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDA3883C2584258500C426D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDA388412584258500C426D3 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA388452584258600C426D3 /* memoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriesTests.swift; sourceTree = "<group>"; };
@@ -72,6 +84,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED6659CD258430B1001EF405 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED6659CE258430C4001EF405 /* DashboardView.swift */,
+				ED6659E725843832001EF405 /* MemoriesView.swift */,
+				ED7C0D2A2586FD0000F3D30B /* MediaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED6659DB25843544001EF405 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				ED6659DC2584354F001EF405 /* SwiftUI+.swift */,
+				ED665A012584B1CE001EF405 /* Foundation+.swift */,
+				ED665A0625852A51001EF405 /* DispatchQueue+.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		ED6659F82584AF5B001EF405 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED6659F92584AF90001EF405 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED7C0D2F2587098700F3D30B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED7C0D302587099300F3D30B /* MediaWrapper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EDA388272584258300C426D3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,21 +143,15 @@
 		EDA388322584258300C426D3 /* memories */ = {
 			isa = PBXGroup;
 			children = (
-				EDA388332584258300C426D3 /* memoriesApp.swift */,
-				EDA388352584258300C426D3 /* ContentView.swift */,
+				ED7C0D2F2587098700F3D30B /* Models */,
+				ED6659DB25843544001EF405 /* Utility */,
+				ED6659F82584AF5B001EF405 /* ViewModels */,
+				ED6659CD258430B1001EF405 /* Views */,
+				EDA388332584258300C426D3 /* RootView.swift */,
 				EDA388372584258500C426D3 /* Assets.xcassets */,
 				EDA3883C2584258500C426D3 /* Info.plist */,
-				EDA388392584258500C426D3 /* Preview Content */,
 			);
 			path = memories;
-			sourceTree = "<group>";
-		};
-		EDA388392584258500C426D3 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EDA3883A2584258500C426D3 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		EDA388442584258500C426D3 /* UnitTests */ = {
@@ -233,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA3883B2584258500C426D3 /* Preview Assets.xcassets in Resources */,
 				EDA388382584258500C426D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA388362584258300C426D3 /* ContentView.swift in Sources */,
-				EDA388342584258300C426D3 /* memoriesApp.swift in Sources */,
+				ED7C0D2B2586FD0000F3D30B /* MediaView.swift in Sources */,
+				ED6659CF258430C4001EF405 /* DashboardView.swift in Sources */,
+				ED6659FA2584AF90001EF405 /* DashboardViewModel.swift in Sources */,
+				ED6659E825843832001EF405 /* MemoriesView.swift in Sources */,
+				ED7C0D312587099300F3D30B /* MediaWrapper.swift in Sources */,
+				ED6659DD2584354F001EF405 /* SwiftUI+.swift in Sources */,
+				ED665A0725852A51001EF405 /* DispatchQueue+.swift in Sources */,
+				ED665A022584B1CE001EF405 /* Foundation+.swift in Sources */,
+				EDA388342584258300C426D3 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"memories/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = memories/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"memories/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = memories/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
